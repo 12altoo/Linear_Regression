@@ -16,7 +16,7 @@ def costFunction(X,y,theta):
         return s
 
 
-def gradientDecent(X,y,thetha,alpha=0.0001,itrations=10000):
+def gradientDecent(X,y,thetha,alpha=0.0001,itrations=1000):
         
         m=len(X)
         
